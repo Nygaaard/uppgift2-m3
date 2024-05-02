@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  line-height: 1.7em;
+}
+
+.experience-box {
+  background-color: #edc9c9;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 20px;
+  padding: .4rem;
+}
+
+header {
+  background-color: #f9f3f3;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100px;
+  margin-bottom: 20px;
+  padding: 1rem;
+  display: flex;
+}
+
+.menu {
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  color: #000;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #656161;
+}
+
+.menu li a:active {
+  color: #000;
+}
+
+footer {
+  background-color: #d5d0d0;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 1rem;
+  display: flex;
+}
+
+@media (width <= 600px) {
+  footer {
+    flex-direction: column;
+  }
+}
+
+.form {
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 1rem;
+  box-shadow: 0 1px 1px;
+}
+
+.form input {
+  width: 60%;
+}
+
+.short {
+  width: 30%;
+}
+
+.errMessage {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media (width <= 600px) {
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form input {
+    width: 90%;
+  }
+}
+
+.about {
+  width: 70%;
+  margin: 0 auto;
+  padding: .5rem;
+}
+
+.about p {
+  padding: .3rem;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+@media (width <= 600px) {
+  .about {
+    width: 90%;
+  }
+}
+
+.hOne, .hTwo {
+  text-align: center;
+}
+
+@media (width <= 600px) {
+  .hOne {
+    font-size: 1.2rem;
+  }
+
+  .hTwo {
+    font-size: 1rem;
+  }
+}
+
+.add {
+  width: 80px;
+  height: 28px;
+  margin-top: 20px;
+}
+
+.add:hover {
+  cursor: pointer;
+}
+
+#add {
+  width: 80px;
+  height: 28px;
+  margin-top: 20px;
+}
+
+#add:hover {
+  cursor: pointer;
+}
+
+input {
+  border-radius: 2px;
+  height: 1.3rem;
+  padding: .7rem;
+  box-shadow: 0 0 0 .1px;
+}
+/*# sourceMappingURL=index.8c1c22dc.css.map */

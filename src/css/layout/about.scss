@@ -1,0 +1,17 @@
+.about {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.about p {
+  padding: 0.3rem;
+}
+.about h2 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .about {
+    width: 90%;
+  }
+}

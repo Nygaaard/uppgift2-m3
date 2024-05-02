@@ -1,0 +1,12 @@
+.hOne,
+.hTwo {
+  text-align: center;
+}
+@media all and (max-width: 600px) {
+  .hOne {
+    font-size: 1.2rem;
+  }
+  .hTwo {
+    font-size: 1rem;
+  }
+}

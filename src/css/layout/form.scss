@@ -1,0 +1,29 @@
+.form {
+  border: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0px;
+  margin-top: 20px;
+}
+.form input {
+  width: 60%;
+}
+.short {
+  width: 30%;
+}
+.errMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media all and (max-width: 600px) {
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .form input {
+    width: 90%;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lägg till</title>
+    <link rel="stylesheet" href="css/main.scss" />
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="add.html">Lägg till</a></li>
+          <li><a href="about.html">Om</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class="hTwo">Lägg till jobb</h2>
+      <form method="post" class="form">
+        <label for="companyName">Jobbnamn:</label>
+        <br />
+        <input type="text" id="companyName" name="companyName" />
+        <br />
+        <label for="jobTitle">Jobbtitel:</label>
+        <br />
+        <input type="text" id="jobTitle" name="jobTitle" />
+        <br />
+        <label for="location">Plats:</label>
+        <br />
+        <input type="text" id="location" name="location" />
+        <br />
+        <label for="startDate">Startdatum:</label>
+        <br />
+        <input type="date" id="startDate" name="startDate" class="short" />
+        <br />
+        <label for="endDate">Slutdatum:</label>
+        <br />
+        <input type="date" id="endDate" name="endDate" class="short" />
+        <br />
+        <label for="description">Beskrivning:</label>
+        <br />
+        <input type="text" id="description" name="description" />
+        <br />
+        <input type="submit" id="add" class="add" />
+        <div id="errMessage" class="errMessage"></div>
+      </form>
+      <div id="test"></div>
+    </main>
+    <footer>
+      <p>&COPY;Andreas Nygård, 2024</p>
+      <a href="mailto:anny2301@student.miun.se">anny2301@student.miun.se</a>
+    </footer>
+  </body>
+</html>

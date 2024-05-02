@@ -1,0 +1,26 @@
+header {
+  background-color: #f9f3f3;
+  padding: 1rem;
+  margin-bottom: 20px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.menu li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.menu li a:hover {
+  color: #656161;
+}
+.menu li a:active {
+  color: #000;
+}
